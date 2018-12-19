@@ -36,16 +36,6 @@ java -jar target/quickstart-se.jar
 
 ```
 curl -X GET http://localhost:8080/greet
-{"message":"Hello World!"}
-
-curl -X GET http://localhost:8080/greet/Joe
-{"message":"Hello Joe!"}
-
-curl -X PUT http://localhost:8080/greet/greeting/Hola
-{"gretting":"Hola"}
-
-curl -X GET http://localhost:8080/greet/Jose
-{"message":"Hola Jose!"}
 ```
 
 ## Build the Docker Image

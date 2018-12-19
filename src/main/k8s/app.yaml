@@ -43,7 +43,7 @@ spec:
     spec:
       containers:
       - name: ${project.artifactId}
-        image: ${project.artifactId}
+        image: javiermugueta/quickstart-se
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080

@@ -60,4 +60,3 @@ kubectl get pods                    # Verify connectivity to cluster
 kubectl create -f target/app.yaml   # Deply application
 kubectl get service quickstart-se  # Get service info
 ```
-# quickstart-se

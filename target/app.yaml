@@ -43,7 +43,7 @@ spec:
     spec:
       containers:
       - name: quickstart-se
-        image: quickstart-se
+        image: javiermugueta/quickstart-se
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
